@@ -27,7 +27,7 @@
 p, .paragraph, .other-posts__desc {
   font-size: 17px;
   color: #000000;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   line-height: 26px;
   margin: 0 0 10px; }
@@ -35,14 +35,14 @@ p, .paragraph, .other-posts__desc {
 h1, .heading1 {
   color: #000000;
   font-size: 90px;
-  font-family: "Zilla Slab", serif;
+  font-family: "Source Sans Pro", serif;
   font-weight: 600;
   margin: 0 0 10px; }
 
 h2, .heading2 {
   color: #000000;
   font-size: 50px;
-  font-family: "Zilla Slab", serif;
+  font-family: "Source Sans Pro", serif;
   font-weight: 600;
   margin: 0 0 10px;
   line-height: 56px; }
@@ -50,7 +50,7 @@ h2, .heading2 {
 h3, .heading3 {
   color: #000000;
   font-size: 24px;
-  font-family: "Zilla Slab", serif;
+  font-family: "Source Sans Pro", serif;
   font-weight: 600;
   margin: 0 0 15px;
   line-height: 28px; }
@@ -58,7 +58,7 @@ h3, .heading3 {
 h4, .heading4, .title-section span, section.about-section .about-box .content-holder > span, section.team-section .team-box .team-post span {
   color: #000000;
   font-size: 20px;
-  font-family: "Zilla Slab", serif;
+  font-family: "Source Sans Pro", serif;
   font-weight: 600;
   margin: 0 0 15px;
   line-height: 28px; }
@@ -285,7 +285,7 @@ li:hover > .dropdown {
 /* =  General */
 /*------------------------------------------------- */
 body {
-  font-family: "Zilla Slab", serif; }
+  font-family: "Source Sans Pro", serif; }
 
 #container {
   overflow: hidden;
@@ -335,12 +335,12 @@ body {
   background: #111111; }
   #home-section .tp-caption.Concept-Title {
     font-size: 90px;
-    font-family: "Zilla Slab", serif;
+    font-family: "Source Sans Pro", serif;
     font-weight: 600 !important;
     letter-spacing: -2px !important;
     color: #000000; }
   #home-section .tp-caption.Concept-SubTitle {
-    font-family: "Zilla Slab", serif;
+    font-family: "Source Sans Pro", serif;
     font-size: 26px;
     font-style: normal !important;
     font-weight: 400 !important;
@@ -435,7 +435,7 @@ section.page-banner-section {
     margin-bottom: 0px; }
   section.page-banner-section span {
     font-size: 22px;
-    font-family: "Zilla Slab", serif;
+    font-family: "Source Sans Pro", serif;
     font-weight: 400;
     margin-bottom: 0;
     color: #ffffff; }
@@ -1302,7 +1302,7 @@ section.testimonial-section {
     section.testimonial-section .testimonial-post h3 {
       margin-bottom: 0px; }
     section.testimonial-section .testimonial-post span {
-      font-family: "Zilla Slab", serif;
+      font-family: "Source Sans Pro", serif;
       font-weight: 400;
       color: #000000;
       font-size: 16px;
@@ -1311,7 +1311,7 @@ section.testimonial-section {
       margin-bottom: 20px;
       border-bottom: 1px solid #e1e1e1; }
     section.testimonial-section .testimonial-post p {
-      font-family: "Zilla Slab", serif;
+      font-family: "Source Sans Pro", serif;
       font-style: italic;
       font-size: 20px;
       margin: 0;
@@ -1412,7 +1412,7 @@ section.news-section {
       section.news-section .news-box .news-post .news-content p.auth-paragraph {
         padding-top: 25px;
         margin: 30px 15px 0;
-        font-family: "Zilla Slab", serif;
+        font-family: "Source Sans Pro", serif;
         border-top: 1px solid #e1e1e1; }
         section.news-section .news-box .news-post .news-content p.auth-paragraph a {
           color: #000000; }
@@ -1547,7 +1547,7 @@ section.news-section {
     .sidebar .category-widget ul li a {
       color: #000000;
       font-size: 18px;
-      font-family: "Zilla Slab", serif;
+      font-family: "Source Sans Pro", serif;
       font-weight: 400;
       display: block; }
       .sidebar .category-widget ul li a span {
@@ -1614,7 +1614,7 @@ div.single-post {
     div.single-post .post-content p.auth-paragraph {
       padding-bottom: 25px;
       margin-bottom: 15px;
-      font-family: "Zilla Slab", serif;
+      font-family: "Source Sans Pro", serif;
       border-bottom: 1px solid #e1e1e1; }
       div.single-post .post-content p.auth-paragraph a {
         color: #000000; }
@@ -1631,7 +1631,7 @@ div.single-post {
         line-height: 30px;
         font-weight: 600;
         font-style: italic;
-        font-family: "Zilla Slab", serif;
+        font-family: "Source Sans Pro", serif;
         margin: 0; }
     div.single-post .post-content .single-post__tags {
       margin: 20px 0; }
@@ -1794,7 +1794,7 @@ div.single-post {
     font-weight: 600;
     background: transparent;
     border: 1px solid #E58439;
-    font-family: "Zilla Slab", serif;
+    font-family: "Source Sans Pro", serif;
     outline: none;
     margin: 0;
     cursor: pointer;
@@ -1852,7 +1852,7 @@ section.about-section {
     margin-bottom: 2px; }
   .statistic-box .statistic-post p {
     font-size: 18px;
-    font-family: "Zilla Slab", serif; }
+    font-family: "Source Sans Pro", serif; }
   .statistic-box .statistic-post:after {
     content: '';
     position: absolute;
@@ -2001,7 +2001,7 @@ section.contact-section .contact-info p {
     display: block;
     color: #000000;
     font-size: 18px;
-    font-family: "Zilla Slab", serif;
+    font-family: "Source Sans Pro", serif;
     font-weight: 600;
     margin: 0 0 12px; }
   #contact-form input[type="text"],
@@ -2043,7 +2043,7 @@ section.contact-section .contact-info p {
     font-weight: 600;
     background: #E58439;
     border: 1px solid #E58439;
-    font-family: "Zilla Slab", serif;
+    font-family: "Source Sans Pro", serif;
     outline: none;
     margin: 0;
     cursor: pointer;
@@ -2279,7 +2279,7 @@ footer {
         background: #E58439;
         color: #ffffff;
         font-size: 18px;
-        font-family: "Zilla Slab", serif;
+        font-family: "Source Sans Pro", serif;
         font-weight: 600;
         outline: none;
         border: none;

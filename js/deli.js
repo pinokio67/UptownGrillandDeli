@@ -1,24 +1,17 @@
-$(".button-two").click(function(e) {
-  e.preventDefault();
-
-  // Get the target section's top offset
-  var target = $($(this).attr("href")).offset().top;
-
-  // Scroll to the target section
-  $("html, body").animate({
-    scrollTop: target
-  }, 500);
+document.querySelector('.button-two').addEventListener('click', function(event) {
+  event.preventDefault(); // prevent the default link behavior
+  document.querySelector('#mymenu').scrollIntoView({
+    behavior: 'smooth' // smoothly scroll to the element
+  });
 });
 
-$(".drop-link").click(function(e) {
-  e.preventDefault();
-
-  // Get the target section's top offset
-  var target = $($(this).attr("href")).offset().top;
-
-  // Scroll to the target section
-  $("html, body").animate({
-    scrollTop: target
-  }, 500);
-});
-
+var dropLinkItems = document.querySelectorAll('.drop-link-item');
+for (var i = 0; i < dropLinkItems.length; i++) {
+  dropLinkItems[i].addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('.navbar-toggler').click();
+    document.querySelector(event.target.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+}
