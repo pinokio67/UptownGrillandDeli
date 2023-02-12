@@ -23,7 +23,9 @@
 .reset-elem, .dropdown, ul.page-ban-list, section.menu-section .menu-box .menu-holder ul.menu-list, .pagination-list-box ul.pages-list, .sidebar .category-widget ul, .sidebar .popular-widget ul.popular-list, .comment-area-box > ul, footer .up-footer .footer-widget ul.social-list {
   margin: 0;
   padding: 0; }
-
+  .tp-caption {
+    color: inherit !important;
+}
 p, .paragraph, .other-posts__desc {
   font-size: 17px;
   color: #000000;
